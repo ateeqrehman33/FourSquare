@@ -1,0 +1,51 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingBottom="40dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Venue Name"
+            android:textColorHint="@color/md_blue_grey_400"
+            android:textColor="@color/md_white_1000"
+            android:text="">
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+
+        <Button android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/autoCompleteTextView"
+            android:text="@string/btn_sign_up"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/md_blue_grey_200"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="Developed by ateeqrehman33@gmail.com as an Assignment to Mobilly.co"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

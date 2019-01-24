@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NearBy Venues</string>
+
+
+    <string name="hint_name">Venue Name</string>
+    <string name="btn_sign_up">Search</string>
+
+
+    <string name="Client_ID">EWH3AW5SVKVWGC40LKMBQMKRJIVBX3DVU5133L5Q1NWTUXW5</string>
+    <string name="Client_Secret">JORONABDPTSOWB2JYUYJY4FKP1R23CKLDA0IVF3FEPAWTMVJ</string>
+
+
+</resources>
